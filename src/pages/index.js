@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Hero from '../components/Hero'
 import Projects from '../components/Projects'
+import Services from '../components/Services'
 
 export default function Home() {
   const MainContainer = styled.main`
@@ -10,6 +11,7 @@ export default function Home() {
     <MainContainer>
       <Hero />
       <Projects />
+      <Services />
     </MainContainer>
   )
 }

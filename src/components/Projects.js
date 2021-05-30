@@ -1,28 +1,12 @@
 import Link from 'next/link'
 import styled from 'styled-components'
+import LinkCTA from './styles/LinkCTA'
 
 export default function Projects() {
   const ProjectsContainer = styled.div`
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
-    a {
-      align-self: center;
-      font-size: 1rem;
-      color: var(--dark);
-      text-decoration: none;
-
-      img {
-        margin-left: 1rem;
-        transition: transform ease-in-out 100ms;
-      }
-
-      :hover {
-        img {
-          transform: translateX(1rem);
-        }
-      }
-    }
 
     .projects-desktop {
       display: none;
@@ -80,12 +64,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <Link href="/">
-        <a>
-          See my projects
-          <img src="arrow.svg" alt="arrow pointing right" />
-        </a>
-      </Link>
+      <LinkCTA path="/projects">See my projects</LinkCTA>
     </ProjectsContainer>
   )
 }
