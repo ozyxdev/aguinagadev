@@ -6,7 +6,7 @@ import GlobalStyles from './styles/GlobalStyles'
 const InnerStyles = styled.div`
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 1.5rem;
+  padding: 2rem;
 `
 
 export default function Page({ children }) {

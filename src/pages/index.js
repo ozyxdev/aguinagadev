@@ -1,9 +1,13 @@
+import styled from 'styled-components'
+import Hero from '../components/Hero'
+
 export default function Home() {
+  const MainContainer = styled.main`
+    margin: 0 1.5rem;
+  `
   return (
-    <div>
-      <main>
-        <h1>Hello</h1>
-      </main>
-    </div>
+    <MainContainer>
+      <Hero />
+    </MainContainer>
   )
 }

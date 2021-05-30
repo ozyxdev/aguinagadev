@@ -4,7 +4,7 @@ import Nav from './Nav'
 
 const HeaderStyles = styled.header`
   max-width: var(--max-width);
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 0 0;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@ const HeaderStyles = styled.header`
     }
   }
 
-  @media (max-width: 812px) {
+  @media (max-width: 656px) {
     grid-template-columns: auto 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 0.5rem;

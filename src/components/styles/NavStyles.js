@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const NavStyles = styled.ul`
-  margin: 0;
+  margin: 0 1.5rem;
   padding: 0;
   display: flex;
 
