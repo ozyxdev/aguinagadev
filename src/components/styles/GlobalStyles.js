@@ -10,7 +10,10 @@ const GlobalStyles = createGlobalStyle`
 
   html {
     --max-width: 1180px;
-    font-size: 10px;
+    --primary-dark: #312A7E;
+    --primary-100: #E7E6FD;
+    font-size: 16px;
+    
   }
 
   body {
