@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Hero from '../components/Hero'
+import Projects from '../components/Projects'
 
 export default function Home() {
   const MainContainer = styled.main`
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <MainContainer>
       <Hero />
+      <Projects />
     </MainContainer>
   )
 }

@@ -3,6 +3,7 @@ import ButtonStyles from './styles/Button'
 
 export default function Hero() {
   const HeroStyles = styled.div`
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: 60% auto;
     grid-gap: 4rem;
@@ -39,6 +40,7 @@ export default function Hero() {
     }
 
     @media (max-width: 656px) {
+      margin-top: 0;
       grid-template-columns: 1fr;
       .hero-copy {
         display: grid;

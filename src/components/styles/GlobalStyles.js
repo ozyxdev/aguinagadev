@@ -14,10 +14,10 @@ const GlobalStyles = createGlobalStyle`
     --primary-dark: #312A7E;
     --primary-100: #E7E6FD;
     font-size: 16px;
-    overflow: hidden;
   }
-
+  
   body {
+    overflow-x: hidden;
     font-family: 'Poppins', ---apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
     padding: 0;
