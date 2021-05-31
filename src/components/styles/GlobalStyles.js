@@ -15,6 +15,8 @@ const GlobalStyles = createGlobalStyle`
     --primary-dark: #312A7E;
     --primary-100: #E7E6FD;
     --secondary: #FF5D73;
+    --secondary-dark: #AB495A;
+    --secondary-100: #FFDFE3;
     font-size: 16px;
   }
   
@@ -47,11 +49,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Poppins', ---apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  h2 {
-      color: var(--primary-dark);
-      line-height: 115%;
-  }
-
   .section.right::before {
     content: url('dots.svg');
     position: absolute;
@@ -61,6 +58,10 @@ const GlobalStyles = createGlobalStyle`
     @media (max-width: 656px) {
       transform: scale(0.8);
     }
+  }
+
+  .container {
+    margin: 0 1.5rem;
   }
 `
 

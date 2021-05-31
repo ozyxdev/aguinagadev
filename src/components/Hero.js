@@ -12,26 +12,6 @@ export default function Hero() {
       display: none;
     }
 
-    h1 {
-      font-size: 3.5rem;
-      color: var(--dark);
-      line-height: 110%;
-      font-weight: 600;
-      position: relative;
-
-      ::before {
-        content: url('sparkle.svg');
-        position: absolute;
-        top: -2.5rem;
-        left: -3rem;
-        transform: rotate(5deg) scale(1.3);
-      }
-
-      @media (max-width: 992px) {
-        font-size: 2.5rem;
-      }
-    }
-
     img {
       grid-column: 2;
       max-width: 80%;

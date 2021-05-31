@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Footer from './Footer'
 import Header from './Header'
 import GlobalStyles from './styles/GlobalStyles'
+import TypographyStyles from './styles/TypographyStyles'
 
 const InnerStyles = styled.div`
   max-width: var(--max-width);
@@ -14,6 +15,7 @@ export default function Page({ children }) {
   return (
     <div>
       <GlobalStyles />
+      <TypographyStyles />
       <Header />
       <InnerStyles>{children}</InnerStyles>
       <Footer />
