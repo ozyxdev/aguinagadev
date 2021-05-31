@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import Footer from './Footer'
 import Header from './Header'
 import GlobalStyles from './styles/GlobalStyles'
 
@@ -15,6 +16,7 @@ export default function Page({ children }) {
       <GlobalStyles />
       <Header />
       <InnerStyles>{children}</InnerStyles>
+      <Footer />
     </div>
   )
 }

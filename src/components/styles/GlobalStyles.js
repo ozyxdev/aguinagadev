@@ -14,6 +14,7 @@ const GlobalStyles = createGlobalStyle`
     --off-white: #F8F9FA;
     --primary-dark: #312A7E;
     --primary-100: #E7E6FD;
+    --secondary: #FF5D73;
     font-size: 16px;
   }
   
