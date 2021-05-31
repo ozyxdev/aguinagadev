@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 import ButtonStyles from './styles/Button'
 
@@ -57,7 +58,9 @@ export default function Hero() {
     <HeroStyles className="section right">
       <div className="hero-copy">
         <h1>I create beautiful websites your users will love</h1>
-        <ButtonStyles>Get in touch</ButtonStyles>
+        <Link href="mailto:omar@aguinaga.dev">
+          <ButtonStyles>Get in touch</ButtonStyles>
+        </Link>
         <img src="profile.png" alt="Hi there, it's Omar" />
       </div>
       <img src="profile.png" alt="Hi there, it's Omar" />

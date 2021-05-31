@@ -114,24 +114,24 @@ export default function Footer() {
           </p>
           <LinkCTA path="/">Now available for hire</LinkCTA>
           <div className="social">
-            <Link href="twitter.com">
+            <Link href="https://twitter.com/aguinaga_dev">
               <img src="social/twitter.svg" alt="twitter" />
             </Link>
-            <Link href="github.com">
+            <Link href="https://github.com/ozyxdev">
               <img src="social/github.svg" alt="github" />
             </Link>
-            <Link href="linkedin.com">
+            <Link href="https://www.linkedin.com/in/oaguinaga/">
               <img src="social/linkedin.svg" alt="linkedin" />
             </Link>
-            <Link href="email.com">
+            <Link href="mailto:omar@aguinaga.dev">
               <img src="social/email.svg" alt="email" />
             </Link>
           </div>
         </div>
         <div className="links">
           <h3>Quick Links</h3>
-          <Link href="/home">Home</Link>
-          <Link href="/about">About</Link>
+          <Link href="/">Home</Link>
+          <Link href="/contact">About</Link>
           <Link href="/projects">Projects</Link>
           <Link href="/services">Services</Link>
           <Link href="/contact">Contact</Link>

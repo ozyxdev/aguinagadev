@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 import ButtonStyles from './styles/Button'
 
@@ -104,7 +105,9 @@ export default function Me() {
           I help growing companies like yours convert more customers and make
           more sales by combining your goals with your user’s needs.
         </p>
-        <ButtonStyles>Get in touch</ButtonStyles>
+        <Link href="mailto:omar@aguinaga.dev">
+          <ButtonStyles>Get in touch</ButtonStyles>
+        </Link>
       </div>
     </AboutCard>
   )
