@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Hero from '../components/Hero'
+import Me from '../components/Me'
 import Projects from '../components/Projects'
 import Services from '../components/Services'
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Projects />
       <Services />
+      <Me />
     </MainContainer>
   )
 }

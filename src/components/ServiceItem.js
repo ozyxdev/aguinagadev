@@ -20,7 +20,7 @@ export default function ServiceItem({ service }) {
 
     .header {
       display: flex;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     .icon {
@@ -30,8 +30,8 @@ export default function ServiceItem({ service }) {
       ::before {
         content: url('hex.svg');
         position: absolute;
-        left: calc(-49px + 12px);
-        top: calc(-60px + 28px + 11px);
+        left: calc(-49px + 11px);
+        top: calc(-60px + 30px);
         z-index: -1;
       }
     }
