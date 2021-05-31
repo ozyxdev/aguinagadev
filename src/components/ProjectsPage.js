@@ -1,5 +1,6 @@
 import ProjectCard from './ProjectCard'
 import projects from '../lib/projects'
+import Me from './Me'
 
 export default function ProjectsPage() {
   return (
@@ -8,6 +9,7 @@ export default function ProjectsPage() {
       {projects.map((project) => (
         <ProjectCard project={project} />
       ))}
+      <Me />
     </div>
   )
 }

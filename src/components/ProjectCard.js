@@ -4,6 +4,10 @@ import TaskItem from './TaskItem'
 
 const ProjectCardStyles = styled.div`
   margin-top: 4.5rem;
+  p {
+    font-size: 1.1rem;
+    line-height: 150%;
+  }
   .task-items {
     margin-top: 1rem;
   }

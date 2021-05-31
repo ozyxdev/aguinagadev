@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Design from '../../public/design.svg'
 import Code from '../../public/code.svg'
 import Support from '../../public/support.svg'
+import Strategy from '../../public/strategy.svg'
 
 const TaskItemStyle = styled.div`
   display: inline-block;
@@ -39,6 +40,7 @@ export default function TaskItem({ taskItem }) {
         {taskItem.icon === 'code' && <Code />}
         {taskItem.icon === 'support' && <Support />}
         {taskItem.icon === 'design' && <Design />}
+        {taskItem.icon === 'strategy' && <Strategy />}
 
         {taskItem.text}
       </span>
