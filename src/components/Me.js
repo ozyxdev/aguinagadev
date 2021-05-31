@@ -20,7 +20,7 @@ const AboutCard = styled.div`
       content: url('dots.svg');
       position: absolute;
       z-index: -1;
-      right: -6rem;
+      right: -3rem;
       top: -3rem;
       transform: scale(0.8);
     }
