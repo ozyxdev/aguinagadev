@@ -6,7 +6,7 @@ const NavStyles = styled.ul`
   display: flex;
 
   a {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1rem;
     margin: 0 0.5rem;
     padding: 0.5rem 1rem;

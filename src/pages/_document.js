@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en-US">
         <Head>
+          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link rel="icon" href="/favicon.png" />
         </Head>
         <body>

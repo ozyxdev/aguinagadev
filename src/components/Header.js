@@ -4,7 +4,7 @@ import Nav from './Nav'
 
 const HeaderStyles = styled.header`
   max-width: var(--max-width);
-  padding: 1.5rem 0 0 0;
+  padding: 2rem 0 0 0;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -19,11 +19,12 @@ const HeaderStyles = styled.header`
   .primary {
     background-color: var(--primary-100);
     border-radius: 0.5rem;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1rem;
     margin: 0 0.5rem;
     padding: 0.5rem 1rem;
     color: var(--primary-dark);
+    line-height: 1.2;
 
     :hover {
       text-decoration: none;

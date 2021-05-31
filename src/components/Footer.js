@@ -5,7 +5,7 @@ import LinkCTA from './styles/LinkCTA'
 const FooterStyles = styled.footer`
   background-color: #e7e6fd;
   position: relative;
-  margin-top: 175px;
+  margin-top: calc(175px + 3rem);
 
   .content {
     max-width: var(--max-width);
@@ -70,7 +70,6 @@ const FooterStyles = styled.footer`
       text-decoration: none;
       color: var(--dark);
       font-weight: normal;
-      align-self: end;
     }
   }
 
@@ -80,6 +79,10 @@ const FooterStyles = styled.footer`
 
       .links {
         text-align: right;
+
+        a {
+          align-self: end;
+        }
       }
     }
   }

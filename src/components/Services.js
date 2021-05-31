@@ -12,6 +12,7 @@ export default function Services() {
 
     h2 {
       grid-column: 1 / -1;
+      margin-bottom: 2.5rem;
     }
 
     @media (min-width: 768px) {

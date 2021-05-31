@@ -13,6 +13,25 @@ const AboutCard = styled.div`
     display: grid;
     padding: 4rem 1rem 1.5rem 1rem;
     text-align: center;
+    position: relative;
+
+    ::after {
+      content: url('dots.svg');
+      position: absolute;
+      z-index: -1;
+      right: -6rem;
+      top: -3rem;
+      transform: scale(0.8);
+    }
+
+    ::before {
+      content: url('dots.svg');
+      position: absolute;
+      z-index: -1;
+      transform: scale(0.8);
+      left: -3.5rem;
+      bottom: -4.5em;
+    }
   }
 
   img {
@@ -23,6 +42,7 @@ const AboutCard = styled.div`
     left: 0;
     right: 0;
     top: -50%;
+    z-index: 10;
   }
 
   h2 {
@@ -58,6 +78,15 @@ const AboutCard = styled.div`
       margin: 3rem 0 0 7rem;
       text-align: left;
       max-width: 560px;
+
+      ::after,
+      ::before {
+        transform: scale(1);
+      }
+
+      ::before {
+        left: -7em;
+      }
     }
 
     button {
