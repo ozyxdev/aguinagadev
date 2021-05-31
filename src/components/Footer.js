@@ -112,7 +112,7 @@ export default function Footer() {
             from start to finish to make sure your goals are reached and your
             users are happy.
           </p>
-          <LinkCTA path="/">Now available for hire</LinkCTA>
+          <LinkCTA path="/contact">Now available for hire</LinkCTA>
           <div className="social">
             <Link href="https://twitter.com/aguinaga_dev">
               <img src="social/twitter.svg" alt="twitter" />
