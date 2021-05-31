@@ -49,16 +49,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Poppins', ---apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  .section.right::before {
-    content: url('dots.svg');
-    position: absolute;
-    right: -5rem;
-    top: 10rem;
-
-    @media (max-width: 656px) {
-      transform: scale(0.8);
-    }
-  }
 
   .container {
     margin: 0 1.5rem;
