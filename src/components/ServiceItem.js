@@ -5,6 +5,8 @@ export default function ServiceItem({ service }) {
     h3 {
       font-size: 1.4rem;
       margin: 0;
+      margin-bottom: 1rem;
+      line-height: 135%;
       color: var(--dark);
     }
 
