@@ -26,7 +26,7 @@ export default function Hero() {
     <HeroStyles className="section right">
       <div className="hero-copy">
         <h1>I create beautiful websites your users will love</h1>
-        <Link href="mailto:omar@aguinaga.dev">
+        <Link href="/contact">
           <ButtonStyles>Get in touch</ButtonStyles>
         </Link>
       </div>
